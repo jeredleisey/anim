@@ -56,14 +56,19 @@ onUnmounted(() => {
 </template>
 
 <style>
+* {
+  font-family: 'Righteous';
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
 
 .outer {
   background: url('../assets/film-grain-bg.jpeg') fixed;
-  height: 1800vh;
+  height: 17000px;
 }
+
 .hero {
   position: fixed;
   display: flex;
@@ -72,13 +77,13 @@ body::-webkit-scrollbar {
   width: 100%;
   height: 100vh;
 }
+
 .animated-text {
   margin: 20px;
 }
 
 span {
   text-transform: uppercase;
-  font-family: 'Righteous';
   font-size: 6vw;
   color: transparent;
   text-shadow: rgb(0, 0, 0) 0px 0px 3px;
